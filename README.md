@@ -13,7 +13,7 @@
 - Member 2: sreelekshmi R- [LBSITW]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://tracex-two.vercel.app/
 
 ### Project Description
 A mobile app that helps find missing people. Relatives can register a missing person with a photo, and the app uses face recognition to detect them. When a match is found, the family and police are notified with the person’s location.
@@ -66,51 +66,44 @@ flutter run
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1]<img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/da9a3219-39b6-448d-87d4-91c36bb66c55" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+
+![Screenshot2]<img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/78d8cda8-8cf9-4944-90f8-4e6ce4099db0" />
+
+
+
+![Screenshot3]<img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/861380cc-e8b6-499b-b634-77846ca8266e" />
+
 
 #### Diagrams
 
 **System Architecture:**
 
 ![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+![WhatsApp Image 2026-02-14 at 9 23 02 AM](https://github.com/user-attachments/assets/85dc7565-ac69-4854-9ba6-aab0510e381c)
+
 
 **Application Workflow:**
 
 ![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+<img width="899" height="1599" alt="image" src="https://github.com/user-attachments/assets/67dd217b-67f9-4c74-a4f5-b2422894b2bf" />
+
 
 ---
 
-### For Hardware:
-
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 #### Build Photos
 
 ![Team](Add photo of your team here)
+<img width="723" height="1600" alt="image" src="https://github.com/user-attachments/assets/6b297d53-d2d8-4bf9-a011-e2eb8385ccfc" />
+![WhatsApp Image 2026-02-10 at 8 50 05 PM](https://github.com/user-attachments/assets/15b979b2-436b-4920-b549-f0ffc7ae2155)
 
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
 
 ![Final](Add photo of final product here)
-*Explain the final build*
+
+<img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/5ba0ab88-0a37-4001-9f20-0bd1295dba58" />
 
 ---
 
@@ -161,9 +154,10 @@ flutter run
 ### For Mobile Apps:
 
 #### App Flow Diagram
+<img width="899" height="1599" alt="image" src="https://github.com/user-attachments/assets/919421d0-7c62-436e-acbb-f1aabe3259e3" />
+<img width="899" height="1599" alt="image" src="https://github.com/user-attachments/assets/3e9b6a4c-8150-4a98-8223-b131b2683636" />
 
-![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
+
 
 #### Installation Guide
 
@@ -183,12 +177,6 @@ flutter run
 4. Wait for the app to install
 5. Open the app from your home screen
 
-**Building from Source:**
-```bash
-# For Android
-flutter build apk
-# or
-./gradlew assembleDebug
 
 # For iOS
 flutter build ios
@@ -196,86 +184,7 @@ flutter build ios
 xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 ```
 
----
-
-### For Hardware Projects:
-
-#### Bill of Materials (BOM)
-
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
-
-**Total Estimated Cost:** ₹[Amount]
-
-#### Assembly Instructions
-
-**Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
-
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
-
----
-
-### For Scripts/CLI Tools:
-
-#### Command Reference
-
-**Basic Usage:**
-```bash
-python script.py [options] [arguments]
-```
-
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
-
-**Options:**
-- `-h, --help` - Show help message and exit
-- `-v, --verbose` - Enable verbose output
-- `-o, --output FILE` - Specify output file path
-- `-c, --config FILE` - Specify configuration file
-- `--version` - Show version information
-
-**Examples:**
-
-```bash
-# Example 1: Basic usage
-python script.py input.txt
-
-# Example 2: With verbose output
-python script.py -v input.txt
-
-# Example 3: Specify output file
+\put file
 python script.py -o output.txt input.txt
 
 # Example 4: Using configuration
@@ -344,25 +253,16 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+https://studio.youtube.com/channel/UCfUTrsfyI59ibH4MlcAPEUg/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
 
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
 
----
 
 ## AI Tools Used (Optional - For Transparency Bonus)
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
-
-**Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
+nil
 
 **Key Prompts Used:**
 - "Create a REST API endpoint for user authentication"
@@ -391,7 +291,7 @@ If you used AI tools during development, document them here for transparency:
 
 ## License
 
-This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - 
 
 **Common License Options:**
 - MIT License (Permissive, widely used)
