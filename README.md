@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [TRACEX] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [innovo]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: souparnika sajan- [LBSITW]
+- Member 2: sreelekshmi R- [LBSITW]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+A mobile app that helps find missing people. Relatives can register a missing person with a photo, and the app uses face recognition to detect them. When a match is found, the family and police are notified with the person’s location.
 
 ### The Problem statement
-[What problem are you solving?]
+It is hard for families and authorities to quickly find missing people, especially in crowded places or public areas.
 
 ### The Solution
-[How are you solving it?]
+Use a mobile app with face recognition to automatically detect missing people and send instant notifications with their location to families and police.
 
 ---
 
@@ -31,25 +31,20 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: flutter\dart,python
+- Frameworks used: flutter,flask
+- Libraries used:flutter\dart(frontend),python(backend/ai)
+- Tools used:vs code,ai studio,postman,github
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
 
----
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1:missing person registration
+- Feature 2: real time face detection
+- Feature 3: location tracking
+- Feature 4:user friendly mobile interface
 
 ---
 
@@ -59,25 +54,13 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+pip installation 
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+flutter run
 ```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
----
-
-## Project Documentation
 
 ### For Software:
 
